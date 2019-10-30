@@ -1,0 +1,163 @@
+body {
+   /*margin-bottom: 10%;*/
+   /*background-color: #dfe3ee;*/
+}
+
+button:focus {
+   outline: none;
+   box-shadow: 0 0 3px #009eb0;
+   cursor: pointer;
+}
+
+input:focus {
+   outline: none;
+   box-shadow: 0 0 3px #009eb0;
+}
+
+/*.logo {
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100px;
+background-color: #009eb0;
+border-bottom: 1px solid grey;
+margin-bottom: 10%;
+position: fixed;
+}*/
+
+.logo {
+   width: 300px;
+   margin: 5px auto;
+   padding: 20px;
+   display: block;
+}
+
+hr {
+   left: 0;
+   width: 99.87%;
+   position: absolute;
+   margin-bottom: 10px;
+}
+
+
+.container {
+   width: 30%;
+   margin: auto;
+   padding: 10px;
+   display: block;
+   /*background-color: lightblue;*/
+}
+
+.container input {
+   width: 100%;
+   height: 50px;
+   /*border-radius: 100px;*/
+   border: 1px solid lightgrey;
+   font-size: 17px;
+   padding: 10px;
+   box-sizing: border-box;
+   margin: 5px 0;
+}
+
+.container .radiobtn {
+   display: inline-block;
+   padding: 10%;
+   width: 100px;
+   height: 10px;
+
+}
+
+.container button {
+   float: right;
+   padding: 10px 35px;
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+   margin: 3px 0;
+   background-color: #009eb0;
+   border-radius: 100px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+
+.container p {
+   float: left;
+   color: grey;
+   font-weight: bold;
+   font-family: arial;
+   font-size: 12px;
+   display: block;
+   margin: 16px 0;
+}
+
+.container .errormsg {
+   position: inherit;
+   display: block;
+   text-align: right;
+   width: 100%;
+   color: #fe4646;
+   font-style: italic;
+   font-size: 12px;
+   margin: 0;
+   font-weight: lighter;
+}
+
+.container .tglLahir h4 {
+   width: 100%;
+   float: left;
+   color: grey;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: arial;
+   display: block;
+   margin: 10px 0;
+}
+
+.container .tglLahir {
+   width: 100%;
+}
+
+.container .tglLahir select {
+   display: inline-block;
+   font-family: arial;
+   color: grey;
+   font-size: 17px;
+   width: 32.5%;
+   height: 50px;
+   background: transparent;
+   border-color: lightgrey;
+   margin-bottom: 5px;
+   padding: 5px;
+   box-sizing: border-box;
+   border: 1px solid lightgrey;
+}
+
+.container .jk {
+   width: 100%;
+   font-family: arial;
+   font-size: 20px;
+   display: block;
+   color: grey;
+}
+
+.container .jk input {
+   width: 13px;
+   height: 13px;
+   display: inline-block;
+   margin: 10px 4px 0 0;
+}
+
+.container a {
+   text-decoration: none;
+   color: #009eb0;
+}
+
+.container h3 {
+   color: grey;
+   font-weight: bold;
+   font-family: arial;
+   text-align: center;
+   margin: 0px 0 10px 10px;
+}
